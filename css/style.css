@@ -124,7 +124,8 @@
 }
 
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 75em) {
@@ -163,6 +164,7 @@ html {
 }
 
 body {
+    overflow: hidden;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;;
     background: url(../img/dark_gradient_bg.png), linear-gradient(#1b232f, #1b232f);
@@ -636,14 +638,14 @@ footer span{
         border-bottom: solid 4px white;
     }
 
-    .menuImg{
+    .menuImg {
         opacity: 0.3;
         height: 100%;
         object-fit: cover;
         object-position: bottom;
         width: auto;
         bottom: 0;
-
+    }
     .logo {
         width: 50vw;
     }
@@ -659,7 +661,7 @@ footer span{
         right: 0!important;
      }
 }
-}
+
 @media (max-width: 570px) {
     .navigation__icon{
         margin-top: 2.5rem;
