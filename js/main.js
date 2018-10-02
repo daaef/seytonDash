@@ -37,9 +37,9 @@
     // Create a project timeline
     tlProject
     	.set([$projectTitle, $mohawkInfo, $omegaInfo, $omega, $mohawk, $projectImage], {autoAlpha: 0})
-    	.fromTo($omega, 1.3, {autoAlpha: 0, xPercent: '200'}, {autoAlpha: 1, xPercent: '0', ease:Power4.easeInOut})
+    	.fromTo($omega, 0.7, {autoAlpha: 0, xPercent: '200'}, {autoAlpha: 1, xPercent: '0', ease:Power4.easeInOut})
       .add('omegaIn')
-    	.fromTo($mohawk, 1.3, {autoAlpha: 0, xPercent: '-200'}, {autoAlpha: 1, xPercent: '0', ease:Power4.easeInOut})
+    	.fromTo($mohawk, 0.7, {autoAlpha: 0, xPercent: '-200'}, {autoAlpha: 1, xPercent: '0', ease:Power4.easeInOut})
     	.add('mohawkIn')
     	.fromTo($projectImage, 0.7, {autoAlpha: 0, yPercent: '-50'}, {autoAlpha: 1, yPercent: '-5', ease:Power4.easeInOut}, '-=0.4')
 			.add('projectImageIn')

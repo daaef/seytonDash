@@ -428,10 +428,12 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     font-size: 1.3rem;
+    opacity: 0;
 }
 
 .logo>img{
     width: 17vw;
+    opacity: 0;
 }
 
 .container{
