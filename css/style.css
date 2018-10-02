@@ -643,7 +643,7 @@ footer span{
         object-position: bottom;
         width: auto;
         bottom: 0;
-    }
+
     .logo {
         width: 50vw;
     }
@@ -652,11 +652,11 @@ footer span{
 
 @media (max-width: 767px) {
     .logo{
-        top: 100px;
+        top: 50px;
     }
     .social-media {
-         top: 7rem!important;
-        right: 2rem!important;
+         top: 0!important;
+        right: 0!important;
      }
 }
 @media (max-width: 570px) {
