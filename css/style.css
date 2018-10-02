@@ -659,7 +659,33 @@ footer span{
         right: 0!important;
      }
 }
+}
 @media (max-width: 570px) {
+    .navigation__icon{
+        margin-top: 2.5rem;
+    }
+
+    .content ul{
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+    }
+
+    .content h2{
+        margin-bottom: 10px!important;
+    }
+
+    .content li{
+        font-size: 1rem;
+    }
+
+    .content{
+        padding-top: 20px;
+    }
+
+    .navigation__button{
+        height: 5rem;
+        width: 5rem;
+    }
     .logo{
         width: 70vw;
     }
