@@ -18,23 +18,23 @@
 
 @-webkit-keyframes borderPulseOmega {
     from {
-        border-right: dashed 2px white;
+        border-right: dashed 2px #e7a71d;
         border-bottom: dashed 2px #eaeaea;
     }
     to {
         border-right: dashed 4px #eaeaea;
-        border-bottom: dashed 4px white;
+        border-bottom: dashed 4px #e7a71d;
     }
 }
 
 @-webkit-keyframes borderPulseMohawk {
     from{
         border-left: dashed 2px #eaeaea;
-        border-top: dashed 2px white;
+        border-top: dashed 2px #e7a71d;
     }
 
     to {
-        border-left: dashed 4px white;
+        border-left: dashed 4px #e7a71d;
         border-top: dashed 4px #eaeaea;
     }
 }
@@ -167,8 +167,9 @@ body {
     overflow: hidden;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;;
-    background: url(../img/dark_gradient_bg.png), linear-gradient(#1b232f, #1b232f);
-    background-size: 100% 100%;
+    background: url(../gallery/img/10.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 1.7;
@@ -228,6 +229,10 @@ body {
 }
 
 /*navigation*/
+.navigation__checkbox:checked~.navigation__nav {
+    opacity: 1;
+    width: 100%;
+}
 
 .navigation__nav {
     height: 100vh;
@@ -265,7 +270,7 @@ body {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, rgba(25, 25, 25, 0.79) 50%);
     background-size: 220%;
     -webkit-transition: all .4s;
     transition: all .4s
@@ -280,7 +285,8 @@ body {
 .navigation__link:hover,
 .navigation__link:active {
     background-position: 100%;
-    color: #55c57a;
+    color: #e7a71d;
+    border-bottom: #e7a71d solid 5px;
     -webkit-transform: translateX(1rem);
     transform: translateX(1rem)
 }
@@ -305,7 +311,7 @@ body {
 .navigation__icon::after {
     width: 3rem;
     height: 2px;
-    background-color: white;
+    background-color: #e7a71d;
     display: inline-block
 }
 
@@ -384,12 +390,12 @@ body {
 }
 
 .navigation__background {
-    height: 6rem;
-    width: 6rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 50%;
     position: fixed;
-    top: 10.5rem;
-    left: 10.5rem;
+    top: 10rem;
+    left: 10rem;
     background-image: radial-gradient(rgba(39, 48, 64, 0.95), rgba(27, 35, 47, 0.95));
     /*filter: blur(25px);*/
     z-index: 1000;
@@ -415,9 +421,9 @@ body {
 
 .logo{
     position: absolute;
-    top: 5rem;
+    top: 9rem;
     left: 50%;
-    width: 25vw;
+    width: 45vw;
     transform: translateX(-50%);
     text-align: center;
 }
@@ -426,14 +432,13 @@ body {
     width: 100%;
     display: inline-block;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #e7a71d;
     font-size: 1.3rem;
     opacity: 0;
 }
 
 .logo>img{
-    width: 17vw;
-    opacity: 0;
+    width: 90%;
 }
 
 .container{
@@ -453,7 +458,7 @@ body {
 }
 
 .content *{
-    color: #ffffff;
+    color: #e7a71d;
 }
 
 .content{
@@ -468,9 +473,9 @@ body {
 }
 
 .menuLogo img{
-    width: 200px;
+    width: 300px;
     position: absolute;
-    top: -160px;
+    top: -60px;
     right: 0;
 }
 
@@ -514,7 +519,7 @@ body {
 }
 
 .uk-icon,.uk-icon:hover,.uk-icon:active,.uk-icon:visited{
-    color: #ffffff;
+    color: #e7a71d;
 }
 .uk-icon:hover{
     color: #c3c3c3;
@@ -528,7 +533,7 @@ body {
 }
 
 footer span{
-    color: #ffffff;
+    color: #e7a71d;
 }
 .brothers2{
     display: none;
@@ -543,6 +548,10 @@ footer span{
         top: 100px;
     }
 
+    footer{
+        padding: 0 4rem!important;
+    }
+
     .infoMobile{
         background-color: rgba(0, 0, 0 , 0.46);
         height: 200px;
@@ -550,7 +559,7 @@ footer span{
         margin-bottom: 10px;
         border-radius: 10px;
         text-transform: uppercase;
-        color: #ffffff;
+        color: #e7a71d;
         text-align: left;
         padding: 10px;
         font-size: 1.3rem;
@@ -566,7 +575,7 @@ footer span{
     }
 
     .infoMobile h2{
-        color: #ffffff;
+        color: #e7a71d;
         font-weight: 400;
         font-size: 3rem;
     }
@@ -590,12 +599,18 @@ footer span{
         object-position: bottom;
     }
 
-    body {
+    body{
+        background: url(../gallery/img/10.png);
+        background-size: cover;
+        background-position: -150px center;
+        background-repeat: no-repeat;
+    }
+    body.about {
         background: url(../img/dark_gradient_bg.png), linear-gradient(#1b232f, #1b232f);
         background-size: cover;
         background-position: bottom center;
     }
-    footer{
+    .about footer{
         display: none!important;
     }
 
@@ -629,7 +644,7 @@ footer span{
         width: 140px;
         position: absolute;
         top: -160px;
-        right: 0;
+        right: -52px;
     }
 
     .menu{
@@ -637,7 +652,7 @@ footer span{
         margin-bottom: 20px;
         width: 100%;
         left: 50px;
-        border-bottom: solid 4px white;
+        border-bottom: solid 4px #e7a71d;
     }
 
     .menuImg {
@@ -667,6 +682,10 @@ footer span{
 @media (max-width: 570px) {
     .navigation__icon{
         margin-top: 2.5rem;
+    }
+    .navigation__background {
+        height: 5rem;
+        width: 5rem;
     }
 
     .content ul{
@@ -708,7 +727,7 @@ footer span{
 }
 @media screen and (min-width: 960px) {
     .content{
-        border: dashed 2px white;
+        border: dashed 2px #e7a71d;
         border-right: solid 0;
         border-radius: 15px 0 0 15px;
     }
@@ -772,7 +791,8 @@ footer{
     text-transform: uppercase;
     right: -195px;
     top: 180px;
-    color: #ffffff;
+    color: #e7a71d;
+    opacity: 0;
 }
 
 .mohawk .info{
@@ -781,7 +801,8 @@ footer{
     width: 220px;
     text-transform: uppercase;
     top: 180px;
-    color: #ffffff;
+    color: #e7a71d;
+    opacity: 0;
 }
 
 .mohawk .info:before{
@@ -792,8 +813,8 @@ footer{
     height: 52px;
     width: 80%;
     border-top-left-radius: 15px;
-    border-left: dashed 2px white;
-    border-top: dashed 2px white;
+    border-left: dashed 2px #e7a71d;
+    border-top: dashed 2px #e7a71d;
     z-index: 1;
     /*animation: borderPulseMohawk infinite .3s linear;*/
 }
@@ -806,21 +827,21 @@ footer{
     height: 52px;
     width: 80%;
     border-bottom-right-radius: 15px;
-    border-right: dashed 2px white;
-    border-bottom: dashed 2px white;
+    border-right: dashed 2px #e7a71d;
+    border-bottom: dashed 2px #e7a71d;
     z-index: 1;
     /*animation: borderPulseOmega  infinite .3s linear;*/
 }
 
 .mohawk h2{
     text-align: right;
-    color: #ffffff;
+    color: #e7a71d;
     font-weight: 400;
 }
 
 .omega h2{
     text-align: left;
-    color: #ffffff;
+    color: #e7a71d;
     font-weight: 400;
 }
 
