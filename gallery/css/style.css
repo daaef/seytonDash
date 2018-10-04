@@ -378,6 +378,19 @@ html {
   width: 90%;
 }
 
+@media (max-width: 959px) {
+
+  .navigation__button {
+    top: 50px;
+    left: 5px;
+  }
+
+  .navigation__background{
+    top: 50px;
+    left: 5px;
+  }
+
+}
 /*------------------------------------*\
     MATERIAL PHOTO GALLERY
 \*------------------------------------*/
