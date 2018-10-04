@@ -2,12 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce0658fe-18c4-43f5-ba0f-0f0bb19497cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/seytonDash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/seytonDash.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/menu_guys.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mobile_menu_guys.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/css/uikit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/img/dark_gradient_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/img/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/img/menu_guys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/img/mobile_landing_guys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/img/mobile_menu_guys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/img/mohawk_landing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/img/omega_landing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/js/uikit-icons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/js/uikit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/js/vendor/CSSRulePlugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/js/vendor/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/js/vendor/jquery-1.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/img/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/license.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,6 +80,7 @@
           <entry key="css" value="3792" />
           <entry key="html" value="1031" />
           <entry key="js" value="363" />
+          <entry key="txt" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -57,6 +88,7 @@
           <entry key="CSS" value="3792" />
           <entry key="HTML" value="1031" />
           <entry key="JavaScript" value="363" />
+          <entry key="PLAIN_TEXT" value="67" />
         </counts>
       </usages-collector>
     </session>
@@ -102,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallery/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+            <state relative-caret-position="324">
+              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -278,16 +310,23 @@
       <updated>1538420649818</updated>
       <workItem from="1538420652530" duration="39519000" />
       <workItem from="1538650021243" duration="2762000" />
-      <workItem from="1538659314732" duration="5250000" />
+      <workItem from="1538659314732" duration="5519000" />
     </task>
+    <task id="LOCAL-00001" summary="new changes thanks to abbas the client .. mishimishimishimishi.:(">
+      <created>1538685770495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538685770495</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47531000" />
+    <option name="totallyTimeSpent" value="47800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.10607676" />
@@ -314,6 +353,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new changes thanks to abbas the client .. mishimishimishimishi.:(" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes thanks to abbas the client .. mishimishimishimishi.:(" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/plugins.js">
@@ -370,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="324">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
         </state>
       </provider>
     </entry>
