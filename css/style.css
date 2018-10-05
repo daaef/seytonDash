@@ -167,9 +167,8 @@ body {
     overflow: hidden;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;;
-    background: url(../gallery/img/10.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background: url(../gallery/img/10.png)  repeat-x;
+    background-size: auto 100%;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 1.7;
@@ -423,7 +422,7 @@ body {
     position: absolute;
     top: 9rem;
     left: 50%;
-    width: 45vw;
+    width: 60vw;
     transform: translateX(-50%);
     text-align: center;
 }
@@ -600,10 +599,9 @@ footer span{
     }
 
     body{
-        background: url(../gallery/img/10.png);
-        background-size: cover;
+        background: url(../gallery/img/10.png) repeat-x;
+        background-size: auto 100%;
         background-position: -150px center;
-        background-repeat: no-repeat;
     }
     body.about {
         background: url(../img/dark_gradient_bg.png), linear-gradient(#1b232f, #1b232f);
