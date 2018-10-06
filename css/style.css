@@ -167,7 +167,7 @@ body {
     overflow: hidden;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;;
-    background: url(../gallery/img/10.png)  repeat-x;
+    background: url(../img/bg.jpg)  no-repeat;
     background-size: auto 100%;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -728,6 +728,13 @@ footer span{
         border: dashed 2px #e7a71d;
         border-right: solid 0;
         border-radius: 15px 0 0 15px;
+    }
+
+    .seytonDash{
+        width: 100%;
+        min-height: 100vh;
+        background: url(../gallery/img/10.png) no-repeat center;
+        background-size: auto 100%;
     }
 }
 
