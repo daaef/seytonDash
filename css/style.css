@@ -168,7 +168,7 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;;
     background: url(../img/bg.jpg)  no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 1.7;
