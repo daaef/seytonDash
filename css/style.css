@@ -423,7 +423,7 @@ body {
     position: absolute;
     top: 9rem;
     left: 50%;
-    width: 25vw;
+    width: 60svw;
     transform: translateX(-50%);
     text-align: center;
 }
