@@ -189,7 +189,8 @@ html {
   transform: translate(-50%, -50%);
   list-style: none;
   text-align: center;
-  width: 100%
+  width: 100%;
+  overflow: hidden;
 }
 
 .navigation__item {
