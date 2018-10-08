@@ -321,7 +321,7 @@ html {
 
 @media only screen and (max-width: 37.5em) {
   .navigation__button {
-    top: 3rem;
+    top: 3rem!important;
     right: 3rem
   }
 }
@@ -351,8 +351,8 @@ html {
 
 @media only screen and (max-width: 37.5em) {
   .navigation__background {
-    top: 3.5rem;
-    right: 3.5rem
+    top: 3rem!important;
+    right: 3rem
   }
 }
 
@@ -360,7 +360,7 @@ html {
   position: absolute;
   top: 9rem;
   left: 50%;
-  width: 45vw;
+  width: 25vw;
   transform: translateX(-50%);
   text-align: center;
 }
@@ -375,7 +375,7 @@ html {
 }
 
 .logo>img{
-  width: 90%;
+  width: 100%;
 }
 
 @media (max-width: 959px) {
@@ -388,6 +388,10 @@ html {
   .navigation__background{
     top: 50px;
     left: 5px;
+  }
+
+  .logo{
+    width: 70vw;
   }
 
 }
